@@ -161,6 +161,8 @@ public slots:
   void setCurrentPoseToCam();
   /** @brief Reconstructs trajectory from current markers. */
   void updateTrajectory();
+  /** @brief Export trajectory from current markers. */
+  void exportTrajectory();
   /** @brief Sets the frame_id of the markers.*/
   void setMarkerFrames();
   /** @brief Increase the scale of the markers.*/
