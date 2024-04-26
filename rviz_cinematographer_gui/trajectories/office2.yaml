@@ -1,0 +1,97 @@
+rviz_cinematographer_camera_poses:
+  -
+    position:
+      x: -0.119813
+      y: -2.353856
+      z: 0.890176
+    orientation:
+      x: 0.470978
+      y: 0.311416
+      z: -0.688307
+      w: 0.455116
+    transition_duration: 0.500000
+    wait_duration: 0.000000
+  -
+    position:
+      x: 1.924213
+      y: 2.449032
+      z: 0.890176
+    orientation:
+      x: 0.470978
+      y: 0.311416
+      z: -0.688307
+      w: 0.455116
+    transition_duration: 0.500000
+    wait_duration: 0.000000
+  -
+    position:
+      x: 2.194206
+      y: 3.691162
+      z: 0.890175
+    orientation:
+      x: 0.104738
+      y: 0.554825
+      z: -0.153068
+      w: 0.810844
+    transition_duration: 0.500000
+    wait_duration: 0.000000
+  -
+    position:
+      x: 0.371510
+      y: 4.404757
+      z: 0.890175
+    orientation:
+      x: 0.104738
+      y: 0.554825
+      z: -0.153068
+      w: 0.810844
+    transition_duration: 0.500000
+    wait_duration: 0.000000
+  -
+    position:
+      x: -0.538638
+      y: 4.532750
+      z: 0.890174
+    orientation:
+      x: -0.325035
+      y: 0.461685
+      z: 0.475020
+      w: 0.674725
+    transition_duration: 0.500000
+    wait_duration: 0.000000
+  -
+    position:
+      x: -2.253509
+      y: 0.103980
+      z: 0.890174
+    orientation:
+      x: -0.301554
+      y: 0.477353
+      z: 0.440704
+      w: 0.697623
+    transition_duration: 0.500000
+    wait_duration: 0.000000
+  -
+    position:
+      x: -2.621656
+      y: -0.983755
+      z: 0.890173
+    orientation:
+      x: -0.557647
+      y: 0.088493
+      z: 0.814967
+      w: 0.129327
+    transition_duration: 0.500000
+    wait_duration: 0.000000
+  -
+    position:
+      x: -1.030548
+      y: -1.817286
+      z: 0.890173
+    orientation:
+      x: -0.557647
+      y: 0.088493
+      z: 0.814967
+      w: 0.129327
+    transition_duration: 0.500000
+    wait_duration: 0.000000
