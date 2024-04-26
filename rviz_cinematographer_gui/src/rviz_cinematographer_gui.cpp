@@ -252,9 +252,6 @@ void RvizCinematographerGUI::exportTrajectory()
   if(markers_.size() < 2)
     return;
 
-  nav_msgs::Path path;
-  path.header = markers_.front().marker.header;
-
   std::vector<geometry_msgs::Pose> spline_poses;
   markersToSplinedPoses(markers_, spline_poses, 5);
   std::ofstream file;
@@ -263,10 +260,6 @@ void RvizCinematographerGUI::exportTrajectory()
   file.open(package_path, std::ofstream::trunc);
   for(auto& pose : spline_poses)
   {
-    geometry_msgs::PoseStamped waypoint;
-    waypoint.pose = pose;
-    waypoint.header = path.header;
-    path.poses.push_back(waypoint);
     // export as transformation matrix
     file << pose.position.x << " " << pose.position.y << " " << pose.position.z << " "
           << pose.orientation.x << " " << pose.orientation.y << " " << pose.orientation.z << " " << pose.orientation.w << "\n";
